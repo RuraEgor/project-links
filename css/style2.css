@@ -425,15 +425,12 @@
 	overflow: hidden;
 	text-overflow: ellipsis;
 }
-
 #header .menuCat li  a:hover{
 	background: blue;
 }
-
 #header .menuCat li.sel a {
 	background: #C471CB;
 }
-
 #header .menuCat li.no-vis {
 	display: none;
 }
@@ -545,34 +542,31 @@
 	text-decoration: none;
 }
 
-
 .links_header span {
 	transform: rotate(-270deg), translateX(-50%)
 	position: absolute;
 	right: 0;
 	top: 50%
 }
-
 .links_header:hover {
 	left: -5px;
 }
-
-
 #search_yandex {
 	top: 80px;
 	background: red;
 }
-
 #search_google {
 	top: 230px;
 	background: #9DB7E0;
 }
-
 #transl_google {
 	top: 380px;
 	background: #5892ED;
 }
-
+#youtube {
+	top: 530px;
+	background: #D33A38;
+}
 
 /*---------------  Адаптивка  --------------------*/
 

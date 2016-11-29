@@ -170,7 +170,7 @@ $(".js_font_big").click(function(){
 
 //------- 	СКРОЛИНГ   -----
 	$('#up').click(function(){
-		$('html,body').animate({scrollTop:0}, 'slow');		
+		$('html,body').animate({scrollTop:0}, 'slow');
 	});
 
 	$('#down').click(function(){
@@ -311,14 +311,11 @@ $("#header > select").change(function(){
 		url: "ajax/ajax.php",
 		type: 'post',
 		dataType: 'json',
-		//data: { vodca: 777 },
 		data: { mainLinks: 777 },
 		success: function(data) {
-			
+
 			dat(data);		
-
 		}
-
 	});
 
 	

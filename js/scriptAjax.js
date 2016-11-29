@@ -86,6 +86,8 @@ $("#addLast").toggle(
 					$(element).text(indx + 1);	  
 				});
 
+				//-- SCROLL UP
+				$('html,body').animate({scrollTop:0}, 'slow');
 			}
 
 		}); //-- КОНЕЦ АЯКС-ЗАПРОСА
@@ -132,12 +134,9 @@ $("#addLast").toggle(
 			$("#header .menuCat li:first").addClass('sel');  //-- выделение первого элемента в группе категорий меню
 
 			heightZn();  //-- создание отступа от вкладок
-
 		}
-
 	});
 
-	
 //-------  	ПЕРЕХОД К ССЫЛКАМ ПРИ НАЖАТИИ НА КАТЕГОРИЮ ---------
 $("#all_group li, #header .menuCat li").live('click',function(){
 	

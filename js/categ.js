@@ -126,7 +126,6 @@ $('#group_apdate #but_send_group').live('click', function(){
 	ar_clElemDt[4] = $('#menu_view').attr("checked");
 	if (ar_clElemDt[4]) { ar_clElemDt[4] = 1; } else { ar_clElemDt[4] = 0; }
 
-
 	//-- отправка данных редактируемой категории
     $.ajax({
 		url: "ajax/add_del_group.php",

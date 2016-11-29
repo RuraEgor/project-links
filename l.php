@@ -46,7 +46,7 @@
 		<ul id = "sel_ch"></ul>
 	</div>
 
-	<input type="checkbox" class="glob_search js_glob_search" title="Организует глобальный поиск" />
+	<input type="checkbox" class="glob_search js_glob_search" checked="true" title="Организует глобальный поиск" />
 	<!-- <input type="checkbox" class="allSearchBd" title="Выбор во всей базе данных по всем разделам" /> -->
 	
 	<button id="all_categories" title = "Вывести все категории">Все Категории</button>	
@@ -62,6 +62,7 @@
 	<a href="https://www.yandex.ru" id="search_yandex" target="_blank" class="links_header"><span>Яндекс</span></a>
 	<a href="https://www.google.ru" id="search_google" target="_blank" class="links_header"><span>Гугл</span></a>
 	<a href="https://translate.google.ru" id="transl_google" target="_blank" class="links_header"><span>Переводчик</span></a>
+	<a href="https://www.youtube.com" id="youtube" target="_blank" class="links_header"><span>YOUTOBE</span></a>
 
 </div><!--  END  but_form  -->
 
