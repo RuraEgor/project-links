@@ -145,6 +145,17 @@ $(".js_font_big").click(function(){
 			$(this).addClass("show-elem");
 		}
 
+	});
+
+	//----  HIDE/OPEN ALL CATEGORIES IN MENU
+	$('#hideAllCat').click(function(){
+		if( $(this).hasClass("show-elem") ){
+			$(".menuCat li").show(500, function(){ heightZn(); } );
+			$(this).removeClass("show-elem");
+		} else {
+			$(".menuCat li").hide(500,  function(){ heightZn(); });
+			$(this).addClass("show-elem");
+		}
 	});	
 	
 //--------

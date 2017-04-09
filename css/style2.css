@@ -399,6 +399,7 @@
 #header .menuCat{
 	width: 94%;
 	margin: 40px auto 20px;
+	pointer-events: none;
 }
 
 #header .menuCat:after{
@@ -410,6 +411,7 @@
 #header .menuCat li {
 	float: left;
 	margin: 5px 8px 10px 8px;
+	pointer-events: all;
 }
 #header .menuCat li a {
 	padding: 8px;
@@ -582,6 +584,11 @@
 	    text-align: center;
 	    width: 25%;
 	    box-sizing: border-box;
+	}
+
+	.menuCat {
+		max-height: 200px !important;
+    	overflow-y: scroll;
 	}
 
 }

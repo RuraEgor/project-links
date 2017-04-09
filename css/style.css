@@ -510,18 +510,32 @@ body {
 	opacity: 0.9;
 }
 
-/*--------  БЛОК УВЕЛИЧЕНИЯ РАЗМЕРА ЭЛЕМЕНТОВ  ------------*/
 
+/*--------  БЛОК УВЕЛИЧЕНИЯ РАЗМЕРА ЭЛЕМЕНТОВ  ------------*/
 #sizeElem {
     background: rgb(255, 255, 0) none repeat scroll 0 0;
     border-radius: 15px;
-    height: 150px;
+    height: 120px;
     position: fixed;
     right: -60px;
-    top: 120px;
+    top: 90px;
     width: 85px;
     z-index: 50;
     cursor: pointer;
+}
+
+
+/*--------  БЛОК СКРЫТИЯ/ОТКРЫТИЯ КАТЕГОРИЙ МЕНЮ  ------------*/
+#hideAllCat {
+    background: rgb(45, 250, 50) none repeat scroll 0 0;
+    border-radius: 15px;
+    cursor: pointer;
+    height: 80px;
+    position: fixed;
+    right: -60px;
+    top: 235px;
+    width: 85px;
+    z-index: 50;
 }
 
 
