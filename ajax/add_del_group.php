@@ -1,5 +1,4 @@
 <?php
-
 require_once '../config.php';
 
 $_POST['vodca'] = (isset($_POST['vodca']))?$_POST['vodca']:'&&&';

@@ -1,4 +1,5 @@
 <?php
+header("Content-Type: text/html; charset=UTF-8");
 
 //session_start();
 
@@ -7,17 +8,19 @@
 //ini_set('display_startup_errors', 1);
 
 
-$db = "ron178";
+
+$db = "link";
 $host = "localhost";
-$user = "ron178";
-$pass = "5qMXuMiy";
+$user = "root";
+$pass = "";
 
 
-mysql_connect($host, $user, $pass); 
+mysql_connect($host, $user, $pass);
 
 mysql_select_db($db);
 
-mysql_query("SET CHARACTER SET 'utf8'");
+mysql_query("SET CHARACTER cp1251");
+//mysql_query("SET CHARACTER SET 'utf8'");
 
 //mysql_query("SET NAMES 'utf8'");
 //mysql_query("SET CHARACTER SET 'utf8'");

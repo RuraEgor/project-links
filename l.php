@@ -2,21 +2,23 @@
 
 <html lang="ru">
 <head>
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, minimum-scale=1.0" />
-	<link href="css/reset.css" rel="stylesheet" type="text/css" />
-	<link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />
-	<link href="css/style.css" rel="stylesheet" type="text/css" />
-	<link href="css/style2.css" rel="stylesheet" type="text/css" />
-	
-	<title>Ссылки</title>
-	
-	<script type="text/javascript" src="js/jquery-1.4.4.min.js"></script> 
-	<!--   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> -->
-	<script type="text/javascript" src="js/jquery-ui.js"></script>
-	<script type="text/javascript" src="js/script.js"></script>
-	<script type="text/javascript" src="js/scriptAjax.js"></script>
-	<script type="text/javascript" src="js/categ.js"></script>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    <meta name="viewport" content="width=device-width, minimum-scale=1.0" />
+    <link href="css/reset.css" rel="stylesheet" type="text/css" />
+    <link type="text/css" href="css/jquery-ui.css" rel="stylesheet" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+    <link href="css/style2.css" rel="stylesheet" type="text/css" />
+
+    <title>РЎСЃС‹Р»РєРё</title>
+
+    <script type="text/javascript" src="js/jquery-1.4.4.min.js"></script>
+    <!--   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script> -->
+    <script type="text/javascript" src="js/jquery-ui.js"></script>
+    <script type="text/javascript" src="js/script.js"></script>
+    <script type="text/javascript" src="js/scriptAjax.js"></script>
+    <script type="text/javascript" src="js/categ.js"></script>
 </head>
 
 <body>
@@ -30,214 +32,214 @@
 <div id = "down"></div>
 
 <div id = "header">
-	
-	<button id="all_links" title = "При нажатии выведет все имеющиеся ссылки">Все Ссылки</button>
-	
-	<a href="http://ron17.h19.ru/lin/" target="_blank" ><img src="img/logo.png" /></a>
 
-	<a href="http://ron17.h19.ru/wr/" target="_blank" ><img src="img/logo.png" /></a>
-	
-	<select>
-	</select>
+    <button id="all_links" title = "РџСЂРё РЅР°Р¶Р°С‚РёРё РІС‹РІРµРґРµС‚ РІСЃРµ РёРјРµСЋС‰РёРµСЃСЏ СЃСЃС‹Р»РєРё">Р’СЃРµ РЎСЃС‹Р»РєРё</button>
 
-	<input type="checkbox" class="addGroup" title="Позволяет добовлять новую перечень ссылок к уже выведенным" />
-	
-	<div class="wr_inp_seach">
-		<input id = "search" />
-		<ul id = "sel_ch"></ul>
-	</div>
+    <a href="http://ron17.h19.ru/lin/" target="_blank" ><img src="img/logo.png" /></a>
 
-	<input type="checkbox" class="glob_search js_glob_search" checked="true" title="Организует глобальный поиск" />
-	<!-- <input type="checkbox" class="allSearchBd" title="Выбор во всей базе данных по всем разделам" /> -->
-	
-	<button id="all_categories" title = "Вывести все категории">Все Категории</button>	
-	
-	<button id="but_group_form">Доб. группу</button>
-	<button id="but_form">Доб. ссылку</button>
-	<button id="addLast">20</button>
-	<button id="delMnLks" >Удаление</button>
-	<button id="cancelDelMnLks" title="Отмена удаления отмеченных для удаления ссылок" >Отмена</button>
-	<ul class='menuCat'>
-	</ul>
-	
-	<a href="https://www.yandex.ru" id="search_yandex" target="_blank" class="links_header"><span>Яндекс</span></a>
-	<a href="https://www.google.ru" id="search_google" target="_blank" class="links_header"><span>Гугл</span></a>
-	<a href="https://translate.google.ru" id="transl_google" target="_blank" class="links_header"><span>Переводчик</span></a>
-	<a href="https://www.youtube.com" id="youtube" target="_blank" class="links_header"><span>YOUTOBE</span></a>
+    <a href="http://ron17.h19.ru/wr/" target="_blank" ><img src="img/logo.png" /></a>
+
+    <select>
+    </select>
+
+    <input type="checkbox" class="addGroup" title="РџРѕР·РІРѕР»СЏРµС‚ РґРѕР±РѕРІР»СЏС‚СЊ РЅРѕРІСѓСЋ РїРµСЂРµС‡РµРЅСЊ СЃСЃС‹Р»РѕРє Рє СѓР¶Рµ РІС‹РІРµРґРµРЅРЅС‹Рј" />
+
+    <div class="wr_inp_seach">
+        <input id = "search" />
+        <ul id = "sel_ch"></ul>
+    </div>
+
+    <input type="checkbox" class="glob_search js_glob_search" checked="true" title="РћСЂРіР°РЅРёР·СѓРµС‚ РіР»РѕР±Р°Р»СЊРЅС‹Р№ РїРѕРёСЃРє" />
+    <!-- <input type="checkbox" class="allSearchBd" title="Р’С‹Р±РѕСЂ РІРѕ РІСЃРµР№ Р±Р°Р·Рµ РґР°РЅРЅС‹С… РїРѕ РІСЃРµРј СЂР°Р·РґРµР»Р°Рј" /> -->
+
+    <button id="all_categories" title = "Р’С‹РІРµСЃС‚Рё РІСЃРµ РєР°С‚РµРіРѕСЂРёРё">Р’СЃРµ РљР°С‚РµРіРѕСЂРёРё</button>
+
+    <button id="but_group_form">Р”РѕР±. РіСЂСѓРїРїСѓ</button>
+    <button id="but_form">Р”РѕР±. СЃСЃС‹Р»РєСѓ</button>
+    <button id="addLast">20</button>
+    <button id="delMnLks" >РЈРґР°Р»РµРЅРёРµ</button>
+    <button id="cancelDelMnLks" title="РћС‚РјРµРЅР° СѓРґР°Р»РµРЅРёСЏ РѕС‚РјРµС‡РµРЅРЅС‹С… РґР»СЏ СѓРґР°Р»РµРЅРёСЏ СЃСЃС‹Р»РѕРє" >РћС‚РјРµРЅР°</button>
+    <ul class='menuCat'>
+    </ul>
+
+    <a href="https://www.yandex.ru" id="search_yandex" target="_blank" class="links_header"><span>РЇРЅРґРµРєСЃ</span></a>
+    <a href="https://www.google.ru" id="search_google" target="_blank" class="links_header"><span>Р“СѓРіР»</span></a>
+    <a href="https://translate.google.ru" id="transl_google" target="_blank" class="links_header"><span>РџРµСЂРµРІРѕРґС‡РёРє</span></a>
+    <a href="https://www.youtube.com" id="youtube" target="_blank" class="links_header"><span>YOUTOBE</span></a>
 
 </div><!--  END  but_form  -->
 
 
-	<!--  ФОРМА ДЛЯ ВЫВОДА ВСЕХ ГРУПП  -->
-	<div id="all_group">
-		<div class="close ui-sortable-handle" style=""></div>
-		<h2>Все существующие категории</h2>
-		<ul class = "list sortable ui-sortable">
-		</ul>
-		<div class="clear"></div>
-	</div>	
+<!--  Р¤РћР РњРђ Р”Р›РЇ Р’Р«Р’РћР”Рђ Р’РЎР•РҐ Р“Р РЈРџРџ  -->
+<div id="all_group">
+    <div class="close ui-sortable-handle" style=""></div>
+    <h2>Р’СЃРµ СЃСѓС‰РµСЃС‚РІСѓСЋС‰РёРµ РєР°С‚РµРіРѕСЂРёРё</h2>
+    <ul class = "list sortable ui-sortable">
+    </ul>
+    <div class="clear"></div>
+</div>
 
-	
-<!--  ФОРМА ДЛЯ СОЗДАНИЯ ССЫЛКИ  -->
+
+<!--  Р¤РћР РњРђ Р”Р›РЇ РЎРћР—Р”РђРќРРЇ РЎРЎР«Р›РљР  -->
 <div id = "wrap_form">
 
 
-	<!--  ФОРМА ДЛЯ СОЗДАНИЯ ССЫЛКИ  -->
-	<div id="link_add" class="sortable">
-		
-		<div class="close"></div>
-		
-		<form>
-				<h2>Добавление Ссылки</h2>
-			
-				<h3>Название ссылки</h3>
-			<input type="text" name="name" id="name" autofocus = "" />
-			
-				<h3>Категория</h3>
-			<select>
-			</select>
-			
-				<h3>Ссылка</h3>
-			<input type="text" name="links" id="links" />
-							
-				<h3>Фон</h3>
-			<input type="color" name="background" value = "#74AAF6" id="background" />
-			
-			<p>
-				<label>
-					<input type="checkbox" id="choise_back" /> - нашжмите если хотите чтобы на вкладки было изображение
-				</label>
-			</p>
-			
-				<h3>Описание</h3>
-			<textarea name="title" id="title" ></textarea>
-					
-			<input type="button" name="but_send" id="but_send" value="Отправить" accesskey = "w"/>
-		</form>
-	</div><!--  END  link_add  -->
-	
+    <!--  Р¤РћР РњРђ Р”Р›РЇ РЎРћР—Р”РђРќРРЇ РЎРЎР«Р›РљР  -->
+    <div id="link_add" class="sortable">
 
-<!--  ФОРМА ДЛЯ ЗАПИСИ ГРУППЫ -->
-	<div id="group_add" class="sortable">
-		
-		<div class="close"></div>
-		
-		<form>
-				<h1>Новая категория</h1>
-			
-				<h3>Название Группы</h3>
-			<input type="text" id="name_group" autofocus = "" />
-			
-				<h3>Фон</h3>
-			<p>
-				<input type="radio" name="group_backg" value="true" id="backg_group_1" checked />
-				<input type="color" value = "#fddff5" id="backg_group_color" />
-			</p>
-			
-				<h3>Фон - изображение</h3>
-			<p>
-				<input type="radio" name="group_backg" value="true" id="backg_group_2" />
-				<input type="text" id="backg_group_img" value="#74AAF6" />			
-			</p>
-			
-				<h3>Описание</h3>
-			<textarea id="title_group" ></textarea>
-					
-			<input type="button" id="but_send_group" value="Отправить" accesskey = "w"/>
-		</form>
-	</div><!--  END  group_add  -->
+        <div class="close"></div>
+
+        <form>
+            <h2>Р”РѕР±Р°РІР»РµРЅРёРµ РЎСЃС‹Р»РєРё</h2>
+
+            <h3>РќР°Р·РІР°РЅРёРµ СЃСЃС‹Р»РєРё</h3>
+            <input type="text" name="name" id="name" autofocus = "" />
+
+            <h3>РљР°С‚РµРіРѕСЂРёСЏ</h3>
+            <select>
+            </select>
+
+            <h3>РЎСЃС‹Р»РєР°</h3>
+            <input type="text" name="links" id="links" />
+
+            <h3>Р¤РѕРЅ</h3>
+            <input type="color" name="background" value = "#74AAF6" id="background" />
+
+            <p>
+                <label>
+                    <input type="checkbox" id="choise_back" /> - РЅР°С€Р¶РјРёС‚Рµ РµСЃР»Рё С…РѕС‚РёС‚Рµ С‡С‚РѕР±С‹ РЅР° РІРєР»Р°РґРєРё Р±С‹Р»Рѕ РёР·РѕР±СЂР°Р¶РµРЅРёРµ
+                </label>
+            </p>
+
+            <h3>РћРїРёСЃР°РЅРёРµ</h3>
+            <textarea name="title" id="title" ></textarea>
+
+            <input type="button" name="but_send" id="but_send" value="РћС‚РїСЂР°РІРёС‚СЊ" accesskey = "w"/>
+        </form>
+    </div><!--  END  link_add  -->
 
 
+    <!--  Р¤РћР РњРђ Р”Р›РЇ Р—РђРџРРЎР Р“Р РЈРџРџР« -->
+    <div id="group_add" class="sortable">
+
+        <div class="close"></div>
+
+        <form>
+            <h1>РќРѕРІР°СЏ РєР°С‚РµРіРѕСЂРёСЏ</h1>
+
+            <h3>РќР°Р·РІР°РЅРёРµ Р“СЂСѓРїРїС‹</h3>
+            <input type="text" id="name_group" autofocus = "" />
+
+            <h3>Р¤РѕРЅ</h3>
+            <p>
+                <input type="radio" name="group_backg" value="true" id="backg_group_1" checked />
+                <input type="color" value = "#fddff5" id="backg_group_color" />
+            </p>
+
+            <h3>Р¤РѕРЅ - РёР·РѕР±СЂР°Р¶РµРЅРёРµ</h3>
+            <p>
+                <input type="radio" name="group_backg" value="true" id="backg_group_2" />
+                <input type="text" id="backg_group_img" value="#74AAF6" />
+            </p>
+
+            <h3>РћРїРёСЃР°РЅРёРµ</h3>
+            <textarea id="title_group" ></textarea>
+
+            <input type="button" id="but_send_group" value="РћС‚РїСЂР°РІРёС‚СЊ" accesskey = "w"/>
+        </form>
+    </div><!--  END  group_add  -->
 
 
-<!--  ФОРМА ДЛЯ ИЗМЕНЕНИЯ ГРУППЫ -->
-<div id="group_apdate" class="sortable">
-	
-	<div class="close"></div>
-	
-	<form>
-			<h1>Изменить категорию</h1>
-		
-			<h3 class="catg_name">Название категории</h3>
-		<input type="text" id="name_group" autofocus = "" />
-		
-			<h3>Фон</h3>
-		<p>
-			<input type="radio" name="group_backg" value="true" id="backg_group_1" checked />
-			<input type="color" value = "#fddff5" id="backg_group_color" />
-		</p>
-		
-			<h3>Фон - изображение</h3>
-		<p>
-			<input type="radio" name="group_backg" value="true" id="backg_group_2" />
-			<input type="text" id="backg_group_img" value="#74AAF6" />			
-		</p>
-		<p>
-			<label class="check-view">
-				<input id="menu_view" value="" checked type="checkbox"> - убрать чтобы пункт меню не отображался
-			</label>
-		</p>
-		
-			<h3>Описание</h3>
-		<textarea id="title_group" ></textarea>
-				
-		<input type="button" id="but_send_group" value="Отправить" accesskey = "w"/>
-	</form>
-</div>
-<!--  END  group_apdate  -->
 
 
-<!-- ФОРМА ДЛЯ ОБНОВЛЕНИЯ ССЫЛКИ -->
-	<div id="apdate_form" class="sortable">
-		
-		<div class="close"></div>
-		
-		<form>
-				<h2>Редактирование Ссылки</h2>
-			
-				<h3>Название ссылки</h3>
-			<input type="text" name="name" class="name" autofocus = "" />
-			
-				<h3>Категория</h3>
-			<select>
-			</select>
-			
-			<input type="hidden" name="hidGroup" class="hidGroup" />
-			
-				<h3>Ссылка</h3>
-			<input type="text" name="links" class="links" />
-			<!-- 
-				<h3>Фон</h3>
-			<input type="text" name="background" class="background_1" />
-			 -->
-				<h3>Зданий фон</h3>
-			<input type="color" name="background" value = "#74AAF6" class="background_2" />
-			
-			<p>
-				<label>
-					<input class="choise_back" type="checkbox" />
-					- отметьте если хотите чтобы на вкладки было изображение
-				</label>
-			</p>
-			
-			<p>
-				<label>
-					<input class="rewriteLink" type="checkbox" />
-					- отметьте если хотите чтобы была создана новая ссылка
-				</label>
-			</p>
-			
-			
+    <!--  Р¤РћР РњРђ Р”Р›РЇ РР—РњР•РќР•РќРРЇ Р“Р РЈРџРџР« -->
+    <div id="group_apdate" class="sortable">
 
-				<h3>Описание</h3>
-			<textarea name="title" class="title" ></textarea>
-					
-			<input type="button" name="but_send" class="but_send" value="Отправить" accesskey = "w"/>
-		</form>
-	</div><!--  END  link_add  -->
-		
-<!-- -->	
-	
+        <div class="close"></div>
+
+        <form>
+            <h1>РР·РјРµРЅРёС‚СЊ РєР°С‚РµРіРѕСЂРёСЋ</h1>
+
+            <h3 class="catg_name">РќР°Р·РІР°РЅРёРµ РєР°С‚РµРіРѕСЂРёРё</h3>
+            <input type="text" id="name_group" autofocus = "" />
+
+            <h3>Р¤РѕРЅ</h3>
+            <p>
+                <input type="radio" name="group_backg" value="true" id="backg_group_1" checked />
+                <input type="color" value = "#fddff5" id="backg_group_color" />
+            </p>
+
+            <h3>Р¤РѕРЅ - РёР·РѕР±СЂР°Р¶РµРЅРёРµ</h3>
+            <p>
+                <input type="radio" name="group_backg" value="true" id="backg_group_2" />
+                <input type="text" id="backg_group_img" value="#74AAF6" />
+            </p>
+            <p>
+                <label class="check-view">
+                    <input id="menu_view" value="" checked type="checkbox"> - СѓР±СЂР°С‚СЊ С‡С‚РѕР±С‹ РїСѓРЅРєС‚ РјРµРЅСЋ РЅРµ РѕС‚РѕР±СЂР°Р¶Р°Р»СЃСЏ
+                </label>
+            </p>
+
+            <h3>РћРїРёСЃР°РЅРёРµ</h3>
+            <textarea id="title_group" ></textarea>
+
+            <input type="button" id="but_send_group" value="РћС‚РїСЂР°РІРёС‚СЊ" accesskey = "w"/>
+        </form>
+    </div>
+    <!--  END  group_apdate  -->
+
+
+    <!-- Р¤РћР РњРђ Р”Р›РЇ РћР‘РќРћР’Р›Р•РќРРЇ РЎРЎР«Р›РљР -->
+    <div id="apdate_form" class="sortable">
+
+        <div class="close"></div>
+
+        <form>
+            <h2>Р РµРґР°РєС‚РёСЂРѕРІР°РЅРёРµ РЎСЃС‹Р»РєРё</h2>
+
+            <h3>РќР°Р·РІР°РЅРёРµ СЃСЃС‹Р»РєРё</h3>
+            <input type="text" name="name" class="name" autofocus = "" />
+
+            <h3>РљР°С‚РµРіРѕСЂРёСЏ</h3>
+            <select>
+            </select>
+
+            <input type="hidden" name="hidGroup" class="hidGroup" />
+
+            <h3>РЎСЃС‹Р»РєР°</h3>
+            <input type="text" name="links" class="links" />
+            <!--
+                <h3>Р¤РѕРЅ</h3>
+            <input type="text" name="background" class="background_1" />
+             -->
+            <h3>Р—РґР°РЅРёР№ С„РѕРЅ</h3>
+            <input type="color" name="background" value = "#74AAF6" class="background_2" />
+
+            <p>
+                <label>
+                    <input class="choise_back" type="checkbox" />
+                    - РѕС‚РјРµС‚СЊС‚Рµ РµСЃР»Рё С…РѕС‚РёС‚Рµ С‡С‚РѕР±С‹ РЅР° РІРєР»Р°РґРєРё Р±С‹Р»Рѕ РёР·РѕР±СЂР°Р¶РµРЅРёРµ
+                </label>
+            </p>
+
+            <p>
+                <label>
+                    <input class="rewriteLink" type="checkbox" />
+                    - РѕС‚РјРµС‚СЊС‚Рµ РµСЃР»Рё С…РѕС‚РёС‚Рµ С‡С‚РѕР±С‹ Р±С‹Р»Р° СЃРѕР·РґР°РЅР° РЅРѕРІР°СЏ СЃСЃС‹Р»РєР°
+                </label>
+            </p>
+
+
+
+            <h3>РћРїРёСЃР°РЅРёРµ</h3>
+            <textarea name="title" class="title" ></textarea>
+
+            <input type="button" name="but_send" class="but_send" value="РћС‚РїСЂР°РІРёС‚СЊ" accesskey = "w"/>
+        </form>
+    </div><!--  END  link_add  -->
+
+    <!-- -->
+
 </div><!--  END  wrapp_form  -->
 
 
@@ -246,33 +248,33 @@
 <!---------->
 <div id="lastTventy" >
 
-	<h2 class = "titlLastGroup">Последние двадцать ссылок</h2>
-	<ul class="bom sortable">
+    <h2 class = "titlLastGroup">РџРѕСЃР»РµРґРЅРёРµ РґРІР°РґС†Р°С‚СЊ СЃСЃС‹Р»РѕРє</h2>
+    <ul class="bom sortable">
 
-	</ul>
+    </ul>
 
-	<div class = 'clear'></div>
+    <div class = 'clear'></div>
 
 </div><!--   END WRAPPER   -->
 
 <!---------->
 <div id="wrapper" >
 
-	<h1 class = "nameGroup"><span>Главная</span></h1>
-	<ul class="bom sortable">
+    <h1 class = "nameGroup"><span>Р“Р»Р°РІРЅР°СЏ</span></h1>
+    <ul class="bom sortable">
 
-	</ul>
+    </ul>
 
-	<div class = 'clear'></div>
+    <div class = 'clear'></div>
 
 </div><!--   END WRAPPER   -->
 
 
 
 <script>
-	$(document).ready(function(){
-		$("a[onclick]").click();
-	});
+    $(document).ready(function(){
+        $("a[onclick]").click();
+    });
 </script>
 
 <script type="text/javascript" src="js/script_1.js"></script>
