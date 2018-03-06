@@ -9,10 +9,10 @@ header("Content-Type: text/html; charset=UTF-8");
 
 
 
-$db = "link";
+$db = "ruraeghw_lin_wr";
 $host = "localhost";
-$user = "root";
-$pass = "";
+$user = "ruraeghw_lin_wr";
+$pass = "ruraeghw_lin_wr";
 
 
 mysql_connect($host, $user, $pass);
